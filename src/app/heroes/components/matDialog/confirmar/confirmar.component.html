@@ -1,0 +1,17 @@
+<div fxLayout="column">
+<div fxFlex="100">
+  <h3>¿Está seguro?</h3>
+  <hr>
+  <span>¿Desea continuar?</span>
+
+  <br>
+  <p style="width: 100%; margin:0; padding:0; text-align: justify;">A continuación se borrará toda la información correspondiente a <strong>{{data.superhero}}</strong></p>
+</div>
+
+  <br>
+  <div>
+    <button mat-button color="warn" (click)="borrar()">Si, borrar</button>
+    <button mat-button (click)="cerrar()">Cerrar</button>
+  </div>
+
+</div>
